@@ -10,8 +10,8 @@ public class Freelancer {
                 money /= 3;
                 count++;
             } else {
-                money = money + income;
-                money  -= expenses;
+                money += income;
+                money -= expenses;
             }
         }
         return count;
